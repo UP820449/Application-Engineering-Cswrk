@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevIt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SignIn -->
+    <section class="loginPage">
+      <div class="container">
+        <div class="form">
+          <h1 class="header">Login to account</h1>
+          <input placeholder="Email" class="usrInput" type="text" />
+          <input placeholder="Password" class="pwrdInput" type="password" />
+          <button class="btn signInBtn">Sign in</button>
+          <div>
+            Dont have an account?
+            <a class="signupLnk">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signup -->
+    <section class="signUpPage">
+      <div class="container">
+        <div class="form">
+          <h1 class="header">Create an account</h1>
+          <input class="usrSignupInput" type="text" placeholder="Email" />
+          <input
+            class="pwrdSignupInput"
+            type="password"
+            placeholder="Password"
+          />
+          <button class="btn signUpBtn">Sign up</button>
+          <div>
+            Already have an account?
+            <a class="loginLnk">Login</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="homePage">
+      <div>
+        <button class="logOut btn">logout</button>
+      </div>
+      <div>
+        <button class="addLink btn">+</button>
+      </div>
+      <div class="modal">
+        <input class="uinput username" placeholder="Username" />
+        <input class="uinput course" placeholder="Course" />
+        <input class="uinput link" placeholder="Link" />
+        <button class="btn addwork">Done</button>
+      </div>
+      <div>
+        <ul class="list">
+          <li class="card firstcard">
+            <div class="content">
+              <h4 class="label">Author</h4>
+              <span></span>
+            </div>
+            <div class="content">
+              <h4 class="label">Assignment</h4>
+              <p></p>
+            </div>
+            <div class="content">
+              <h4 class="label">Link</h4>
+              <span><a href="#"></a></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+  <script src="app.js"></script>
+</html>
